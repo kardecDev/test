@@ -1,9 +1,10 @@
 class Pessoa:
-    def __init__(self, nome: str, idade: int, email: str, celular:str):
+    def __init__(self, nome: str, idade: int, email: str, celular:str, endereco:str):
         self.nome = nome
         self.idade = idade
         self.email = email
         self.celular = celular
+        self.endereco = endereco
 
     def apresentar(self) -> str:
         return f"Olá, meu nome é {self.nome} e tenho {self.idade} anos e meu celular é {self.celular}."
